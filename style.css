@@ -10,12 +10,29 @@ body {
     font-family: "Audiowide";
     width: 16%;
     text-shadow: 
-    5px 5px 0px black,
-    -5px 5px 0px black,
-    5px -5px 0px black,
-    -5px -5px 0px black;
+    3px 3px 0px black,
+    -3px 3px 0px black,
+    3px -3px 0px black,
+    -3px -3px 0px black;
 }
 
+.text-container {
+    background-image: url('https://plus.unsplash.com/premium_photo-1670601440146-3b33dfcd7e17?q=80&w=1838&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Path to your image */
+    background-size: cover; /* Make sure the image covers the entire container */
+    background-position: center; /* Center the image */
+    color: white; /* Text color for better readability */
+    padding: 50px; /* Add padding to give space around the text */
+    text-align: center; /* Center the text */
+}
+
+.text-containers {
+    background-image: url('https://plus.unsplash.com/premium_photo-1661346090218-bf068ecdad60?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Path to your image */
+    background-size: cover; /* Make sure the image covers the entire container */
+    background-position: center; /* Center the image */
+    color: white; /* Text color for better readability */
+    padding: 50px; /* Add padding to give space around the text */
+    text-align: center; /* Center the text */
+}
 
 ul {
     margin: 0px;
@@ -101,10 +118,6 @@ img {
 #footer-ul > div > li > a {
     color: white;
     text-decoration: none;
-}
-
-#sec-after {
-    text-align: left;
 }
 
 footer > h2{
