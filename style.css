@@ -86,7 +86,7 @@ body > footer {
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 20%;
 }
 
 #footer-ul{
@@ -105,4 +105,8 @@ img {
 
 #sec-after {
     text-align: left;
+}
+
+footer > h2{
+    color: white;
 }
